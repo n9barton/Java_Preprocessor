@@ -1,0 +1,147 @@
+V "GNAT Lib v10"
+A -O0
+A -gnatA
+A --RTS=/usr/lib/gcc/x86_64-linux-gnu/10/
+A -g
+A -gnata
+A -g
+A -gnata
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_ENUMERATION_MAPS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_STREAMS
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+RV NO_OBSOLESCENT_FEATURES
+RV SPARK_05
+
+U item%b		item.adb		316e327e NE OO PK IL
+W ada%s			ada.ads			ada.ali
+W ada.streams%s		a-stream.adb		a-stream.ali
+W ada.streams.stream_io%s  a-ststio.adb		a-ststio.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.unchecked_deallocation%s
+Z system%s		system.ads		system.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.strings.stream_ops%s  s-ststop.adb	s-ststop.ali
+Z system.val_enum%s	s-valenu.adb		s-valenu.ali
+
+U item%s		item.ads		45476547 EE NE OO PK IL
+W ada%s			ada.ads			ada.ali
+W ada.streams%s		a-stream.adb		a-stream.ali
+W ada.streams.stream_io%s  a-ststio.adb		a-ststio.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W states_type%s		states_type.ads		states_type.ali
+
+D ada.ads		20230707070819 76789da1 ada%s
+D a-except.ads		20230707070819 a7106115 ada.exceptions%s
+D a-ioexce.ads		20230707070819 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20230707070819 119b8fb3 ada.streams%s
+D a-ststio.ads		20230707070819 d6d358e8 ada.streams.stream_io%s
+D a-tags.ads		20230707070819 491b781d ada.tags%s
+D a-unccon.ads		20230707070819 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20230707070819 eff36322 ada.unchecked_deallocation%s
+D interfac.ads		20230707070819 5ab55268 interfaces%s
+D i-cstrea.ads		20230707070819 e53d8b8e interfaces.c_streams%s
+D item.ads		20250410155740 1324b0ae item%s
+D item.adb		20250410085619 1b6ab91a item%b
+D states_type.ads	20250410164255 80b08d01 states_type%s
+D system.ads		20230707070819 4635ec04 system%s
+D s-conca2.ads		20230707070819 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20230707070819 0ebbdb71 system.crtl%s
+D s-exctab.ads		20230707070819 54135002 system.exception_table%s
+D s-ficobl.ads		20230707070819 078245e4 system.file_control_block%s
+D s-parame.ads		20230707070819 48ec542b system.parameters%s
+D s-secsta.ads		20230707070819 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20230707070819 a7318a92 system.soft_links%s
+D s-stache.ads		20230707070819 a37c21ec system.stack_checking%s
+D s-stalib.ads		20230707070819 09bd3940 system.standard_library%s
+D s-stoele.ads		20230707070819 2dc34a04 system.storage_elements%s
+D s-string.ads		20230707070819 8fe54fb7 system.strings%s
+D s-ststop.ads		20230707070819 5fbf1b38 system.strings.stream_ops%s
+D s-traent.ads		20230707070819 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20230707070819 34867c83 system.unsigned_types%s
+D s-valenu.ads		20230707070819 6201ebfb system.val_enum%s
+G a e
+G c Z s b [get_type item 8 13 none]
+G c Z s b [push item 25 14 none]
+G c Z s b [pop item 27 13 none]
+G c Z s b [release item 29 14 none]
+G c Z s s [token_item_dataIP item 14 9 none]
+G c Z s s [token_recordIP item 33 9 none]
+G c Z b b [free_record item 6 14 none]
+G c Z b b [free_data item 8 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 11|1r19 2r18 2r23 12|1r6 1r34 2r5 2r10
+X 4 a-stream.ads
+36K13*Streams 87e16 11|1r23 2r27 12|1r38 2r14
+X 5 a-ststio.ads
+39K21*Stream_IO 224e26 11|1w31 29r31 12|1w46 53r31
+42P9*Stream_Access(4|39R9) 11|29r41 12|53r41
+X 8 a-uncdea.ads
+20u15*Unchecked_Deallocation 12|1w10 6r33 8r31
+X 11 item.ads
+4K9*item 33E9 38l5 38e9 12|4b14 68l5 68t9
+6E9*Var_Type 6e119 8r44 18r15 12|12r44 14r14 33r11
+6n22*t_none{6E9} 18r27
+6n30*t_byte{6E9}
+6n38*t_short{6E9}
+6n47*t_integer{6E9}
+6n58*t_long{6E9}
+6n66*t_float{6E9}
+6n75*t_double{6E9}
+6n85*t_character{6E9}
+6n98*t_boolean{6E9}
+6n109*t_string{6E9}
+8V13*Get_Type{6E9} 8>22 12|12b13 15t7
+8a22 Item{string} 12|12b22 14r36
+10R9*Token_Item_Data 12r41 14c9 14d26 19e14 25r29 27r24 12|8r54 17r29 20r40
+. 23r45 28r24 45r20 45r39
+12P9*Token_Item_Access(10R9) 34r15 12|8r71
+14R9*Token_Item_Data
+14i26*Length{positive} 15r24 12|29r34
+15a7*ID{string} 12|30r32 57r42
+16e7*ID_Type{13|2E9} 12|31r32
+17i7*Pos{positive} 12|32r34
+18e7*Var_T{6E9} 12|33r34
+21R9*Token_Record 23r43 33c9 36e14 12|6r56 20r22 23r27
+23P9*Token_Record_Access(21R9) 35r14 12|6r70 10r17 34r17 54r17
+25U14*Push 25>19 12|17b14 26l8 26t12
+25r19 Item{14R9} 12|17b19 20r57 23r62
+27V13*Pop{14R9} 12|28b13 51l8 51t11
+29U14*Release 29>22 12|53b14 65l8 65t15
+29p22 Str{5|42P9} 12|53b22 57r23
+34p7*Token{12P9} 12|29r28 30r26 31r26 32r28 33r28 41m25 57r36 59m25
+35p7*Next{23P9} 12|23m15 24r23 39r32 58r29
+X 12 item.adb
+6U14 free_record[8|20] 42s10 60s10
+8U14 free_data[8|20] 41s10 59s10
+10p4 Head{11|23P9} 21m10 37r21 54r40 59r20 60m22 60r22 61m10 63m7
+10p10 Back{11|23P9} 19r10 20m10 21r18 23r10 24m10 24r18 29r23 30r21 31r21
+. 32r23 33r23 36r10 38r27 41r20 42m22 42r22 43m10 64m7
+29i7 L{positive} 45r56
+30a7 I{string} 45r59
+31e7 T{13|2E9} 45r62
+32i7 P{positive} 45r65
+33e7 V{11|6E9} 45r68
+34p7 Current{11|23P9} 37m10 38r16 39m13 39r24 43r18
+45r13 Temp{11|14R9} 47r20
+54p7 Current{11|23P9} 56r13 57r28 58m10 58r21 61r18
+X 13 states_type.ads
+1K9*states_type 11|1w6 2r5 13|9e16
+2E9*States 11|16r17 12|31r11 13|6e101
+2n45*Start{2E9} 11|16r27
+

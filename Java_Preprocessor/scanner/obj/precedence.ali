@@ -1,0 +1,38 @@
+V "GNAT Lib v10"
+A -O0
+A -gnatA
+A --RTS=/usr/lib/gcc/x86_64-linux-gnu/10/
+A -g
+A -gnata
+A -g
+A -gnata
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U precedence%s		precedence.ads		c7ebd590 EE OO PK IL
+W states_type%s		states_type.ads		states_type.ali
+Z system.assertions%s	s-assert.adb		s-assert.ali
+
+D ada.ads		20230707070819 76789da1 ada%s
+D a-unccon.ads		20230707070819 0e9b276f ada.unchecked_conversion%s
+D precedence.ads	20250325213256 528eefc6 precedence%s
+D states_type.ads	20250326013638 95653a56 states_type%s
+D system.ads		20230707070819 4635ec04 system%s
+D s-assert.ads		20230707070819 cd8d2c94 system.assertions%s
+D s-exctab.ads		20230707070819 54135002 system.exception_table%s
+D s-stalib.ads		20230707070819 09bd3940 system.standard_library%s
+G a e
+X 3 precedence.ads
+4K9*precedence 12l5 12e15
+6E12*Precedence_Pattern{character} 9r49
+9a4*Precedence_Table(6E12)
+X 4 states_type.ads
+1K9*states_type 3|1w6 2r5 4|7e16
+2E9*States 3|9r30 9r38 4|6e60
+

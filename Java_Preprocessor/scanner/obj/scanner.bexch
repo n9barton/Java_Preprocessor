@@ -1,0 +1,25 @@
+[GENERATED OBJECT FILE]
+b__scanner.o
+[PROJECT FILES]
+/home/alex/Desktop/Java_Preprocessor/scanner/scanner.gpr
+20250210182409 43665e5afbfe342294e691b173640f0a
+[BOUND OBJECT FILES]
+/home/alex/Desktop/Java_Preprocessor/scanner/obj/states_type.o
+/home/alex/Desktop/Java_Preprocessor/scanner/obj/item.o
+/home/alex/Desktop/Java_Preprocessor/scanner/obj/table.o
+/home/alex/Desktop/Java_Preprocessor/scanner/obj/scanner.o
+[GENERATED SOURCE FILES]
+b__scanner.ads
+b__scanner.adb
+b__scanner.ali
+[RESULTING OPTIONS]
+-L/home/alex/Desktop/Java_Preprocessor/scanner/obj/
+-L/home/alex/Desktop/Java_Preprocessor/scanner/obj/
+-L/usr/lib/gcc/x86_64-linux-gnu/10/adalib/
+-shared
+-shared-libgcc
+-lgnat-10
+-ldl
+[RUN PATH OPTION]
+/usr/lib/gcc/x86_64-linux-gnu/10/adalib/
+/usr/lib

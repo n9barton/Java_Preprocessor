@@ -1,0 +1,93 @@
+V "GNAT Lib v10"
+A -O0
+A -gnatA
+A --RTS=/usr/lib/gcc/x86_64-linux-gnu/10/
+A -g
+A -gnata
+A -g
+A -gnata
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U states_type%s		states_type.ads		80b08d01 NE OO PK IL
+
+D states_type.ads	20250410164255 80b08d01 states_type%s
+D system.ads		20230707070819 4635ec04 system%s
+G a e
+X 1 states_type.ads
+1K9*states_type 9l5 9e16
+2E9*States 6e101
+2n20*Done{2E9}
+2n26*Error{2E9}
+2n33*Class{2E9}
+2n40*Res{2E9}
+2n45*Start{2E9}
+2n52*OpenP{2E9}
+2n59*CloseP{2E9}
+2n67*OpenC{2E9}
+2n74*CloseC{2E9}
+2n82*OpenB{2E9}
+2n89*CloseB{2E9}
+2n97*Semi{2E9}
+2n103*Comma{2E9}
+2n110*Atsym{2E9}
+2n117*Tilde{2E9}
+2n124*Question{2E9}
+3n7*GreatEq{2E9}
+3n16*LessEq{2E9}
+3n24*ExclaimEq{2E9}
+3n35*Lor{2E9}
+3n40*Land{2E9}
+3n46*Equal{2E9}
+3n53*Colon2{2E9}
+3n61*Elipse{2E9}
+3n69*Arrow{2E9}
+3n76*Inc{2E9}
+3n81*Dec{2E9}
+3n86*PlusEqual{2E9}
+3n97*MinusEqual{2E9}
+3n109*TimesEqual{2E9}
+3n121*DivideEqual{2E9}
+4n7*AmpersandEqual{2E9}
+4n23*BarEqual{2E9}
+4n33*CarrotEqual{2E9}
+4n46*ModuloEqual{2E9}
+4n59*RshiftEqual{2E9}
+4n72*LshiftEqual{2E9}
+4n85*URshiftEqual{2E9}
+4n99*Dot{2E9}
+4n104*Dot2{2E9}
+4n110*Colon{2E9}
+4n117*Assign{2E9}
+4n125*Great{2E9}
+4n132*Less{2E9}
+4n138*Exclaim{2E9}
+5n7*Plus{2E9}
+5n13*Minus{2E9}
+5n20*Times{2E9}
+5n27*Divide{2E9}
+5n35*Ampersand{2E9}
+5n46*Bar{2E9}
+5n51*Carrot{2E9}
+5n59*Modulo{2E9}
+5n67*Lshift{2E9}
+5n75*Rshift{2E9}
+5n83*URshift{2E9}
+5n92*StringStart{2E9}
+5n105*StringIn{2E9}
+5n115*StringEnd{2E9}
+5n126*Number{2E9}
+6n7*Comment1{2E9}
+6n17*Comment2{2E9}
+6n27*CommentIn{2E9}
+6n38*CommentDone{2E9}
+6n51*CharStart{2E9}
+6n62*CharEscape{2E9}
+6n74*Charmid{2E9}
+6n83*CharEnd{2E9}
+6n92*Variable{2E9}
+

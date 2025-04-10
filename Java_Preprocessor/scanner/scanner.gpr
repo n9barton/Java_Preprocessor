@@ -1,0 +1,27 @@
+project scanner is
+
+   for Create_Missing_Dirs use "True";
+   for Source_Dirs use ("src");
+   for Object_Dir use "obj";
+   for Main use ("scanner.adb");
+   for Exec_Dir use "../tokenizer";
+   for Languages use ("Ada");
+   for Runtime ("ada") use "/usr/lib/gcc/x86_64-linux-gnu/10/";
+
+   package Compiler is
+      for Switches ("Ada") use ("-g", "-O0", "-gnata");
+   end Compiler;
+
+   package Linker is
+      for Switches ("Ada") use ("-g", "-gnata");
+   end Linker;
+
+   package Builder is
+      for Switches ("Ada") use ("-g", "-gnata");
+   end Builder;
+
+   package Binder is
+      for Switches ("Ada") use ("-g");
+   end Binder;
+
+end scanner;
